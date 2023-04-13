@@ -1,3 +1,4 @@
 ngram
 symspellpy
 tk
+streamlit

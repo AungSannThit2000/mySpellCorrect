@@ -38,7 +38,7 @@ dictionary_path = getattr(args, 'unigram_dict')
 
 mode = getattr(args, 'mode')
 
-corpus = " ".join(open(corpus_path).read().splitlines())
+corpus = " ".join(open(corpus_path , encoding="utf8").read().splitlines())
 
 
 def ngramSpell(sentences):
